@@ -1,15 +1,21 @@
 # blog_app
 
-A new Flutter project.
+Blog app project.
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
+  - Dart 2.17.3
+  - Flutter 3.0.2
 
-A few resources to get you started if this is your first Flutter project:
+## How to build and run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Create Firebase project on your account.
+2. enable Authentication and email method auth.
+3. get your Web API Key from your project settings
+4. edit in app_constants.dart file firebaseWebApiKey variable.
+5. run `flutter pub get` and  `flutter run` commands.
+
+
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,

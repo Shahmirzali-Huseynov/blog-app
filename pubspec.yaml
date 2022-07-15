@@ -14,14 +14,25 @@ dependencies:
   flutter:
     sdk: flutter
 
-
-  cupertino_icons: ^1.0.5
+  
+  # service 
   dio: ^4.0.6
+
+  # state
   flutter_riverpod: ^2.0.0-dev.9 
+
+  #log
   logger: ^1.1.0
+  
+  # stroage
   shared_preferences: ^2.0.15
+
+  # env
   flutter_dotenv: ^5.0.2
+   
+  # ui
   flutter_slidable: ^2.0.0
+  cupertino_icons: ^1.0.5
 
 dev_dependencies:
   flutter_test:
